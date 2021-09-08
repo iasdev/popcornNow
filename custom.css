@@ -1,0 +1,85 @@
+*, .panel-title, a.list-group-item{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+a.list-group-item{
+	word-wrap: break-word;
+}
+
+.logging{
+	margin-top: 1em;
+	text-align: center;
+}
+
+.panel-title h1 {
+	margin-top: 0;
+}
+.panel-default > .panel-heading {
+	text-align: center;
+}
+
+.botonera-izquierda{
+	float: left;
+	margin-top: 1em;
+}
+
+.botonera-derecha{
+	float: right;
+	margin-top: 1em;
+}
+
+.buscador{
+	margin-bottom: 2em;
+}
+
+.botonera-izquierda a{
+	margin-right: 1em;
+}
+
+.botonera-derecha a{
+	margin-left: 1em;
+}
+
+.botonera-izquierda a, .botonera-derecha a, .input-group-addon, .input-group, .caption, .thumbnail, .buscador a{
+	border: 1px solid black;
+
+	background: #122946; /* Old browsers */
+	background: -moz-linear-gradient(top, #122946 0%, #347490 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #122946 0%,#347490 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #122946 0%,#347490 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122946', endColorstr='#347490',GradientType=0 ); /* IE6-9 */
+
+	color: lime;
+}
+
+input[type='time']{
+	all: initial;
+	all: unset;
+}
+
+body, .panel-body, .panel-default, .panel-default > .panel-heading {
+	background-color: rgba(20,45,74,255);
+	border: 0px solid black;
+}
+
+.panel-body{
+	margin-top: 3em;
+}
+
+.caption .row{
+	margin-top: 1em;
+}
+
+.deleteChk{
+	float: right;
+}
+
+.list-group-item, .caption{
+	background-color: rgba(0,0,0,0);
+	border: 0px solid black;
+}
+
+.thumbnail, .btn{
+	border-radius: 10px;
+}
